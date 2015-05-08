@@ -904,10 +904,10 @@ function init(layers) {
     controlsBox.append('<br><br>Mouse Controls:<br>Rotate ', small('- Left mouse button + drag'), '<br>Zoom ', small('- Scroll / Middle mouse button + drag'), '<br>Pan ', small('- Right mouse button + drag'));
 
     //Order
-    controlsBox.append('<br><br><br><br>Finished with your design?<br>', small('Order your PCBs from Mayhew Labs:<br>$1.50/in<sup>2</sup> for 3 copies'));//<br>$1.60/in<sup>2</sup> for 3 copies<br>$1.20/in<sup>2</sup> for 5 copies<br>'));
-    controlsBox.append('<br>', $('<button>').text('Learn More').click(function(){
+    //controlsBox.append('<br><br><br><br>Finished with your design?<br>', small('Order your PCBs from Mayhew Labs:<br>$1.50/in<sup>2</sup> for 3 copies'));//<br>$1.60/in<sup>2</sup> for 3 copies<br>$1.20/in<sup>2</sup> for 5 copies<br>'));
+    //controlsBox.append('<br>', $('<button>').text('Learn More').click(function(){
         // Open a new page and add the image with some text.
-        window.open("http://mayhewlabs.com/order-pcbs","_self");
+        //window.open("http://mayhewlabs.com/order-pcbs","_self");
     }));
 
     // Sort by type, but after listing them.
